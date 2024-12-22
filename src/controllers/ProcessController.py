@@ -8,11 +8,11 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 class ProcessController(BaseController):
-     def __init__(self, projcet_id: str):
-       super().__init__()
-    
-       self.projcet_id = projcet_id
-       self.project_path = ProjectController().get_projcet_path(project_id=projcet_id)
+     def __init__(self, project_id: str):  # Fixed typo
+        super().__init__()
+        self.project_id = project_id
+        self.project_path = ProjectController().get_projcet_path(project_id=project_id)
+
     
     
      def get_file_extension(self,file_id: str):

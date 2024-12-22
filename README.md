@@ -4,6 +4,7 @@
 ### Installation
 
 1) install Miniconda 
+
 2) Create new environment by following command
 ```bash
 conda create -n 'env-name' python=3.10
@@ -18,7 +19,20 @@ cp .env.example .env
 ```
 set your environment variables in the '.env' file
 
-5) Run the FastAPI server
+5) Run Docker Compose Services
+
+```bash
+cd docker
+cp .env.example .env
+```
+6) update .env with your credentials
+
+```bash
+cd docker
+sudo docker compose up -d
+```
+
+7) Run the FastAPI server
 ```bash
 uvicorn main:app --reload 
 ```
