@@ -1,4 +1,5 @@
-# Rag_System
+### Rag_System
+
 This End-to-End application is designed to process unstructured data files and enable intelligent querying through advanced Natural Language Processing (NLP) techniques. The app
 automates the workflow, starting with data ingestion, text preprocessing, and embedding generation using Open AI and Cohere models. These embeddings are then stored in a
 vector database for efficient retrieval and querying. The solution is built strongly on software engineering best practices, ensuring modularity, scalability, and maintainability.
