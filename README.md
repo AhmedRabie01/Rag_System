@@ -1,15 +1,18 @@
 # Rag_System
-
+This End-to-End application is designed to process unstructured data files and enable intelligent querying through advanced Natural Language Processing (NLP) techniques. The app
+automates the workflow, starting with data ingestion, text preprocessing, and embedding generation using Open AI and Cohere models. These embeddings are then stored in a
+vector database for efficient retrieval and querying. The solution is built strongly on software engineering best practices, ensuring modularity, scalability, and maintainability.
+The project demonstrates expertise in NLP, vector search technologies, and seamless integration of AI models into production-ready pipelines, making it a standout example of cutting-edge machine learning applications
 
 ### Installation
 
 1) install Miniconda 
 
-2) Create new environment by following command
+2) Create a new environment by following the command
 ```bash
 conda create -n 'env-name' python=3.10
 ```
-3) install pakages
+3) install packages
 ```bash
 pip install -r requirements.txt
 ```
@@ -29,7 +32,7 @@ cp .env.example .env
 
 ```bash
 cd docker
-sudo docker compose up -d
+sudo docker-compose up -d
 ```
 
 7) Run the FastAPI server
